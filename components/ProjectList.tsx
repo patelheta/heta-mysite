@@ -26,7 +26,7 @@ function ProjectList() {
 
     {
       id: 3,
-      posterImage: "PasswordkeepR.png",
+      posterImage: "PasswordKeepR.png",
       projectName: "PasswordKeeper",
       description:
         "A storage system for password for personal and organization. (Just like Lastpass)",
