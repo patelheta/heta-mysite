@@ -20,8 +20,8 @@ const About = () => {
       <div className="project--container">
         <h2>Experience</h2>
         <h4>
-          Junior Software Developer, Kiluam Software Inc., Canada - July 2021 -
-          Sept. 2022
+          Junior Software Developer, Kiluam Software Inc., Canada <br />
+          <small>July 2021 - Sept. 2022</small>
         </h4>
         <p>
           Designed and developed full-stack web application using HTML5, CSS3,
@@ -32,39 +32,40 @@ const About = () => {
         </p>
 
         <h4>
-          Tutor/ Physiotherapist, Gokul Physiotherapy College, India - June 2020
-          - Dec. 2020
+          Tutor/ Physiotherapist, Gokul Physiotherapy College, India <br />
+          <small>June 2020 - Dec. 2020</small>
         </h4>
       </div>
       <div className="project--container">
         <h2>Education</h2>
-        <h4>Lighthouse Labs - Sept. 2022 - Jan. 2023</h4>
+        <h4>
+          Lighthouse Labs
+          <br /> <small>Sept. 2022 - Jan. 2023</small>
+        </h4>
         <p>Diploma Full-Stack Web Development</p>
-        <p>
+        <h5>
           Relevant Coursework: Introduction to JavaScript, Front-end
           development, Back-end development, Database Management, Data
           structures and Algorithms, JavaScript Frameworks, CI/CD, DevOps, Ruby,
           Ruby On Rails.
-        </p>
-
+        </h5>
         <h4>
-          The University of British Columbia - LinkedIn Learning - April 2022 -
-          July 2022
-        </h4>
-        <p>Become a Front-End Web Developer</p>
-
-        <h4>
-          Hemchandracharya North Gujarat University, India - Aug. 2016 - June
-          2020
+          Hemchandracharya North Gujarat University, India <br />{" "}
+          <small>Aug. 2016 - June 2020</small>
         </h4>
         <p>Bachelor of Physiotherapy</p>
       </div>
       <div className="project--container">
-        <h3>Certificates</h3>
+        <h2>Certificates</h2>
         <p>Microsoft Certified: Azure Fundamentals - Dec. 2022</p>
+        <p>Become a Front-End Web Developer</p>
+        <p>
+          The University of British Columbia - LinkedIn Learning <br />{" "}
+          <small>April 2022 - July 2022</small>
+        </p>
       </div>
       <div className="project--container">
-        <h3>Get in touch</h3>
+        <h2>Get in touch</h2>
         <p>I am always down to chat, feel free to reach out!</p>
         <p>Send An Email</p>
       </div>
