@@ -16,7 +16,6 @@ function Profile() {
       <div className="profile__action">
         <div className="profile--btn">Work</div>
         <div className="profile--btn">About</div>
-        <div className="profile--btn">Project</div>
       </div>
     </aside>
   );

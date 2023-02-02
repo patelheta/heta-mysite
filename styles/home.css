@@ -1,0 +1,45 @@
+html {
+  background-color: bisque;
+  font-style: italic;
+}
+.icons {
+  width: 70px;
+}
+
+body {
+  margin: 0;
+}
+
+/* Navigation Bar
+------------------------------------*/
+nav ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  border-bottom: 2px solid gray;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+#navBanner {
+  float: left;
+  margin-right: auto;
+}
+nav li {
+  display: inline-flex;
+}
+nav a {
+  color: white;
+  display: block;
+  padding: 10px;
+}
+
+/* Profile
+------------------------------------*/
+main {
+  margin-top: 50px;
+}
