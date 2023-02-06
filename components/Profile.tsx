@@ -4,7 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import Link from "next/link";
 
-function Profile(props) {
+function Profile(props: any) {
   const profile = {
     firstName: "Heta",
     lastName: "Patel",
