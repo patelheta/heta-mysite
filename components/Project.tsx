@@ -1,4 +1,6 @@
+import Link from "next/link";
 import React from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Project(project: any) {
   return (
@@ -10,8 +12,19 @@ function Project(project: any) {
       />
       <h2 className="project--name">{project.projectName}</h2>
       <p className="project--description">{project.description}</p>
-      <p className="project--techstack">{project.techStack}</p>
-      <a href={project.githubLink}>Github</a>
+      <p className="project--techstack">
+        <b>Tech Stack: </b>
+        {project.techStack}
+      </p>
+      <Link
+        className="flex items-center p-2"
+        href={project.githubLink}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <GitHubIcon className="mr-2" />
+        Github
+      </Link>
     </div>
   );
 }

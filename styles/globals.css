@@ -1,5 +1,8 @@
 /* layout */
 @import url("https://fonts.googleapis.com/css?family=Bungee|Source+Sans+Pro:300,400,600");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 /*
  * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
  * https://css-tricks.com/international-box-sizing-awareness-day/
@@ -30,7 +33,7 @@ aside {
   background-color: #616058;
   /* Using an image as a background */
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
-  height: 400px;
+  /* height: 400px; */
   padding: 40px;
   border-radius: 20px;
   overflow: hidden;
@@ -184,18 +187,23 @@ nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .profile--btn {
   background-color: #ffffff6b;
   border-radius: 10px;
-  box-shadow: 0px 30px 40px -20px var(--grayishBlue);
   padding: 10px 20px;
+}
+
+.contact__item {
+  background-color: #ffffff6b;
+  border-radius: 10px;
 }
 
 h2 {
   margin: 15px 0px;
+  font-weight: 900;
 }
 
 h4,

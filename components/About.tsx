@@ -4,7 +4,6 @@ const About = () => {
   return (
     <>
       <div className="project--container">
-        <h2>Hi, I am Heta Patel</h2>
         <p>
           Full-stack web developer experienced in medical sciences and health
           care. Through the process of research, planning, design, development,
