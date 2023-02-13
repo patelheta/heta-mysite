@@ -1,4 +1,5 @@
 import React from "react";
+import EmailIcon from "@mui/icons-material/Email";
 
 const About = () => {
   return (
@@ -66,7 +67,12 @@ const About = () => {
       <div className="project--container">
         <h2>Get in touch</h2>
         <p>I am always down to chat, feel free to reach out!</p>
-        <p>Send An Email</p>
+        <p>
+          <a href={`mailto:patelheta385@gmail.com`}>
+            <EmailIcon />
+            Send An Email
+          </a>
+        </p>
       </div>
     </>
   );

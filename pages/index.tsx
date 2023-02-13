@@ -10,7 +10,7 @@ const ABOUT = "ABOUT";
 const WORK = "WORK";
 
 function App() {
-  const { mode, transition } = useVisualMode(ABOUT);
+  const { mode, transition } = useVisualMode(WORK);
   return (
     <div className="App">
       <Navigation />
@@ -19,8 +19,8 @@ function App() {
         onAbout={() => transition(ABOUT)}
       />
       <main className="container">
-        {mode === ABOUT && <About />}
         {mode === WORK && <ProjectList />}
+        {mode === ABOUT && <About />}
       </main>
       {/* <Footer /> */}
     </div>

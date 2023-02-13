@@ -5,6 +5,15 @@ function ProjectList() {
   const projectListData = [
     {
       id: 1,
+      posterImage: "AllProducts.png",
+      projectName: "Ecommerce",
+      description:
+        "Build e-commerce website help you to sell products of your choice using Sanity content management system and stripe payment system.",
+      techStack: "Next.Js, Santity, Stripe",
+      githubLink: "https://github.com/patelheta/ecommerce",
+    },
+    {
+      id: 2,
       posterImage: "StarStudded.png",
       projectName: "StarStudded",
       description:
@@ -14,7 +23,7 @@ function ProjectList() {
       githubLink: "https://github.com/patelheta/StarStudded",
     },
     {
-      id: 2,
+      id: 3,
       posterImage: "ShoppingCart.png",
       projectName: "ShoppingCart",
       description:
@@ -25,7 +34,7 @@ function ProjectList() {
     },
 
     {
-      id: 3,
+      id: 4,
       posterImage: "PasswordKeepR.png",
       projectName: "PasswordKeeper",
       description:
@@ -34,7 +43,7 @@ function ProjectList() {
       githubLink: "https://github.com/patelheta/PasswordKeepR",
     },
     {
-      id: 4,
+      id: 5,
       posterImage: "Schedular.png",
       projectName: "Scheduler",
       description:
@@ -44,7 +53,7 @@ function ProjectList() {
       githubLink: "https://github.com/patelheta/scheduler",
     },
     {
-      id: 5,
+      id: 6,
       posterImage: "Jungle.png",
       projectName: "Jungle",
       description:
@@ -53,7 +62,7 @@ function ProjectList() {
       githubLink: "https://github.com/patelheta/jungle",
     },
     {
-      id: 6,
+      id: 7,
       posterImage: "Tinyapp.png",
       projectName: "Tinyapp",
       description:
@@ -62,7 +71,7 @@ function ProjectList() {
       githubLink: "https://github.com/patelheta/tinyapp",
     },
     {
-      id: 7,
+      id: 8,
       posterImage: "Tweeter.png",
       projectName: "Tweeter",
       description: "Tweeter is a simple, single-page Twitter clone.",
