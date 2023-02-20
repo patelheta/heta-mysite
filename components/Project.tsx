@@ -16,15 +16,27 @@ function Project(project: any) {
         <b>Tech Stack: </b>
         {project.techStack}
       </p>
-      <Link
-        className="flex items-center p-2"
-        href={project.githubLink}
-        target="_blank"
-        rel="noreferrer"
-      >
-        <GitHubIcon className="mr-2" />
-        Github
-      </Link>
+      <div className="flex">
+        <Link
+          className="project--link flex items-center p-2 mr-2"
+          href={project.githubLink}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GitHubIcon className="mr-2" />
+          Github
+        </Link>
+        {project.demoLink && (
+          <Link
+            className="project--link flex items-center p-2"
+            href={project.demoLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Demo
+          </Link>
+        )}
+      </div>
     </div>
   );
 }

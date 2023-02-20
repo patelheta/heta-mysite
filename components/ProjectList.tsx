@@ -11,6 +11,7 @@ function ProjectList() {
         "Build e-commerce website help you to sell products of your choice using Sanity content management system and stripe payment system.",
       techStack: "Next.Js, Santity, Stripe",
       githubLink: "https://github.com/patelheta/ecommerce",
+      demoLink: "https://ecommerce-patelheta.vercel.app/",
     },
     {
       id: 2,
@@ -29,7 +30,7 @@ function ProjectList() {
       description:
         "ShoppingCart is an ecommerce giftcards website, where users can buy giftcards, add them into cart, remove from cart, and view giftcard details.",
       techStack:
-        "Next.js,React toastify,Cypress,Material icons, MaterialUI, HTML, CSS",
+        "Next.js, React toastify, Cypress, Material icons, MaterialUI, HTML, CSS",
       githubLink: "https://github.com/patelheta/Shopping-Cart",
     },
 
@@ -38,7 +39,7 @@ function ProjectList() {
       posterImage: "PasswordKeepR.png",
       projectName: "PasswordKeeper",
       description:
-        "A storage system for password for personal and organization. (Just like Lastpass)",
+        "A password storage system for personal and organization use. (Just like Lastpass)",
       techStack: "Node, Express, jQuery, AJAX, Bootstrap, Cookie Session",
       githubLink: "https://github.com/patelheta/PasswordKeepR",
     },
