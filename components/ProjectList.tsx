@@ -4,6 +4,15 @@ import Project from "./Project";
 function ProjectList() {
   const projectListData = [
     {
+      id: 9,
+      posterImage: "News.png",
+      projectName: "News Voice Assistant ",
+      description:
+        "Build an Artificial Intelligence based conversational voice controlled React news application using Alan AI.",
+      techStack: "React, Alan AI, JavaScript, News API, Material UI",
+      githubLink: "https://github.com/patelheta/react_ai_news_application",
+    },
+    {
       id: 1,
       posterImage: "AllProducts.png",
       projectName: "Ecommerce",
