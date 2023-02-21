@@ -88,6 +88,13 @@ function ProjectList() {
       techStack: " HTML, CSS, JavaScript, jQuery, AJAX ",
       githubLink: "https://github.com/patelheta/tweeter",
     },
+    {
+      id: 10,
+      posterImage: "Album.png",
+      projectName: "Album Search",
+      description: "Search your favourite album using Itunes search API",
+      techStack: " React, Axios, Classnames ",
+    },
   ];
   return (
     <section className="tweets">
