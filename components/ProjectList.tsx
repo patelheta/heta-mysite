@@ -4,6 +4,15 @@ import Project from "./Project";
 function ProjectList() {
   const projectListData = [
     {
+      id: 11,
+      posterImage: "PhotoBooth.png",
+      projectName: "PhotoBooth",
+      description:
+        "Place where you can save your photos and memories. Responsive design built using React and Firebase.",
+      techStack: "React, Firebase",
+      githubLink: "https://github.com/patelheta/PhotoBooth",
+    },
+    {
       id: 9,
       posterImage: "News.png",
       projectName: "News Voice Assistant ",
