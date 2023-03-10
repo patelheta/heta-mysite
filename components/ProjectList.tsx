@@ -11,6 +11,7 @@ function ProjectList() {
         "Place where you can save your photos and memories. Responsive design built using React and Firebase.",
       techStack: "React, Firebase",
       githubLink: "https://github.com/patelheta/PhotoBooth",
+      demoLink: "https://photo-booth-mu.vercel.app/",
     },
     {
       id: 9,
