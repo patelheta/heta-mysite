@@ -92,6 +92,53 @@ const About = () => {
         </p>
       </div>
       <div className="project--container">
+        <h1>What I love about the Company</h1>
+        <h4>Here are some facts that I really like about the Company...</h4>
+        <p>
+          the Company helps people and businesses thrive the Company solutions
+          aim to help businesses streamline their operations, improve
+          productivity, and enhance their relationships with customers and
+          employees.
+        </p>
+        <p>
+          Care for design and user experience the Company products are designed
+          with a user-centric approach and strive to provide an intuitive and
+          seamless user experience. I LOVE the Company clean and modern design!
+        </p>
+        <p>
+          Strong team, compassionate people Respect and trust between coworkers
+          are values that are important to me. the Company has a strong team of
+          people who are compassionate and supportive which makes the Company a
+          special place to work.
+        </p>
+      </div>
+      <div className="project--container">
+        <h1>But why should the Company hire me?</h1>
+        <h4>Passion for design and UX</h4>
+        <p>
+          I have a strong desire to create software and online experiences that
+          are both visually appealing and intuitive for users. I am always
+          looking for ways to make the user journey through a website as
+          seamless and enjoyable as possible. I believe that design can change
+          the way people interact with software.
+        </p>
+        <h4>Quickly adopt and learn</h4>
+        <p>
+          I pride myself on my ability to quickly learn and adapt to new
+          technologies. (I am always curious to learn new technologies!) One of
+          the things I love about software development is that it a never-ending
+          learning journey and I am always looking for ways to expand my skills
+          and knowledge in the field.
+        </p>
+        <h4>Collaboration</h4>
+        <p>
+          I believe that teamwork is key to achieving success, and I am
+          committed to doing my part to contribute to the Company team efforts.
+          Empathy and kindness are values that are important to me, and I try to
+          incorporate them into my interactions with others.
+        </p>
+      </div>
+      <div className="project--container">
         <h2>Get in touch</h2>
         <p>I am always down to chat, feel free to reach out!</p>
         <p>

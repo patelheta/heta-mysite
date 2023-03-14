@@ -8,6 +8,7 @@ import useVisualMode from "../hooks/useVisualMode";
 
 const ABOUT = "ABOUT";
 const WORK = "WORK";
+const COMPANY = "COMPANY";
 
 function App() {
   const { mode, transition } = useVisualMode(WORK);
